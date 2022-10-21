@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,a{
+    margin: 0;
+}
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;  
+    max-width: 100%;
+    max-height: auto;
+}
+
+.header header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header{
+    background-color: #fff;
+    max-width: 100%;
+    display: flex;
+    height: 15vh;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.titleMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.titleMenu h1{
+    font-weight: 700;
+    font-size: 2rem;
+    margin-right: 3rem;
+}
+
+.titleMenu a{
+    color: #777777;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .4s ease-in-out;
+}
+
+.titleMenu a:hover{
+    color: #FF8C00;
+    transition: all .4s ease-in-out;
+}
+
+.avatarCart{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.avatar{
+    max-width: 3.5rem;
+    margin: 0 3rem;
+    cursor: pointer;
+    border: 2px solid #FF8C00;
+    border-radius: 9vh;
+    transition: all .5s ease-in-out;
+}
+
+.avatar:hover{
+    transform: scale(1.1);
+    transition: all .5s ease-in-out;
+}
+
+.kart{
+    width: 1.5rem;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.kart:hover{
+    transform: scale(1.15);
+    transition: all .5s ease-in-out;
+    width: 1.8rem;
+}
+/* HEADER */
+
+.main{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    height: 75%;
+}
+
+.produto{
+    max-width: 50%;
+    object-fit: cover;
+}
+/* IMGS */
+
+.container{
+    display: flex;
+}
+
+#imgSneaker{
+    max-width: 28rem;
+    border-radius: 3vh;
+    object-fit: cover;
+    transition: all .5s ease-in-out;
+}
+
+#imgSneaker:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+
+.groupImg img{
+    margin: 0 1.5vh;
+    max-width: 5.5rem;
+    border-radius: 3vh;
+    cursor: pointer;
+}
+
+.groupImg img:hover{
+    border: 3px solid #FF8C00;
+    background-color: #e2e2e2;
+}
+
+.textSneaker{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo{
+    /* border: 1px solid red; */
+    max-width: 70%;
+}
+
+.conteudo h5{
+    font-size: 0.8rem;
+    color: #ff7b00b9;
+}
+
+.conteudo h4{
+    font-size: 2.2rem;
+    color: #000;
+}
+
+.conteudo p{
+    color:#888888;
+    font-weight: 400;
+}
+
+.conteudo s{
+    font-weight: 300;
+    color:#888888;
+}
+
+#count{
+    color: #000;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#descont{
+    background-color: #fff4e1;
+    color: #FF8C00;
+    font-weight: bold;
+    border-radius: 1vh;
+    width: 7vh;
+    text-align: center;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+}
+
+/* .inputs button{
+    background-color: #dfdfdf;
+    width:5vh;
+    color: #e9910e;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 1vh;
+    border: none;
+} */
+
+.inputs label{
+    background-color: #dfdfdf;
+    width:5vh;
+    color: #FF8C00;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 1vh;
+    border: none;
+}
+
+.btn-1{
+    text-decoration: none;
+    color:#fff;
+    background-color: #FF8C00;
+    border: none;
+    width: 18rem;
+    padding: .8rem 1rem;
+    border-radius: 2vh;
+    font-size: 1rem;
+    box-shadow: 0px 7px 15px -7px rgba(0,0,0,0.75);
+    transition: all .5s ease-in-out
+}
+
+.btn-1:hover{
+    background-color:#faa032;
+    transition: all .5s ease-in-out;
+    transform:scale(1.02);
+}
+
+.icon-btn{
+    margin-right: 2vh; 
+}
+
+.btn-group button{
+    background-color: #f0f0f0;
+    color: #FF8C00;
+    font-weight: bold;
+    border: none;
+    padding: 0.7rem;
+    width:6vh;
+}
+
+.btn-group button:hover{
+    background-color: #cfcfcf;
+    color: #FF8C00;
+}
+
+.btn-group{
+    margin-right: .6rem;
+}
+
+#count-btn{
+    color:#000;
+}
+/* Footer */
+.containerFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ebebeb;
+}
+
+.containerFooter h4{
+    font-size: 1rem;
+}
+
+.icons{
+    display: flex;
+    gap: 1vh;
+    font-size: 1.3rem;
+}
+
+.icons a{
+    color: #000;
+}

@@ -19,6 +19,7 @@
 <body>
   <div class="header">
     <header class="container">
+      <i id="menu" class="fa-solid fa-bars"></i>
       <div class="titleMenu">
         <h1>sneakers</h1>
         <a href="">Collections</a>
@@ -53,20 +54,24 @@
         <main class="conteudo">
           <h5>SNEAKER COMPANY</h5>
           <h4 class="mb-4">Fall Limited Edition Sneakers</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nam enim incidunt doloremque eos dolor
-            asperiores, beatae rem aliquid amet quae iste natus facere consequuntur necessitatibus, numquam tenetur quas
-            officia!</p>
+          <p>These low-profile sneakers are your perfect casual wear companion. Featng a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
 
           <div class="price">
-            <span id="countPrice">$125.00</span>
-            <span id="descont">$0%</span>
+            <div class="priceDisc">
+              <span id="countPrice">$125.00</span>
+              <span id="descont">$50%</span>
+            </div>
+            
+            <div class="cut">
+              <s>$250.00</s>
+            </div>
           </div>
-          <s>$250.00</s>
-
+          
+          
           <div class="inputs mt-4">
             <div class="btn-group" role="group" aria-label="Basic example">
               <button onclick="decremento()" type="button" class="btn btn-light">-</button>
-              <button type="button" id="count-btn" class="btn total btn-light ">0</button>
+              <button type="button" id="count-btn" class="btn total btn-light ">1</button>
               <button onclick="incremento()" type="button" class="btn btn-light">+</button>
             </div>
             

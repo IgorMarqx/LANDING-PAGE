@@ -36,6 +36,10 @@ body{
     border-bottom: 2px solid #e0e0e0;
 }
 
+#menu{
+    display: none;
+}
+
 .titleMenu{
     display: flex;
     justify-content: space-between;
@@ -122,6 +126,7 @@ body{
     transform: scale(1.03);
     cursor: pointer;
     transition: all .5s ease-in-out;
+    box-shadow: 3px 7px 27px -10px rgba(0,0,0,0.75);
 }
 
 
@@ -130,11 +135,13 @@ body{
     max-width: 5.5rem;
     border-radius: 3vh;
     cursor: pointer;
+    transition: all .5s ease-in-out;
 }
 
 .groupImg img:hover{
     border: 3px solid #FF8C00;
-    background-color: #e2e2e2;
+    opacity: 0.5;
+    transition: all .5s ease-in-out;
 }
 
 .textSneaker{
@@ -151,6 +158,7 @@ body{
 
 .conteudo h5{
     font-size: 0.8rem;
+    font-weight: bold;
     color: #ff7b00b9;
 }
 
@@ -190,6 +198,11 @@ body{
     gap: 2vh;
 }
 
+.cut{
+    display: flex;
+    /* flex-direction: column; */
+}
+
 /* .inputs button{
     background-color: #dfdfdf;
     width:5vh;
@@ -200,15 +213,7 @@ body{
     border: none;
 } */
 
-.inputs label{
-    background-color: #dfdfdf;
-    width:5vh;
-    color: #FF8C00;
-    font-weight: bold;
-    font-size: 1.1rem;
-    border-radius: 1vh;
-    border: none;
-}
+
 
 .btn-1{
     text-decoration: none;
@@ -275,3 +280,78 @@ body{
 .icons a{
     color: #000;
 }
+/* Footer */
+
+/* RESPONSIVIDADE */
+@media screen and (max-width: 600px){
+    .header header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header{
+        background-color: #fff;
+        max-width: 100%;
+        display: flex;
+        height: 10vh;
+        border-bottom: 2px solid #e0e0e0;
+    }
+
+    .titleMenu{
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0rem;
+    }
+
+    #menu{
+        display: flex;
+        background-color: #faa032;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #imgSneaker{
+        max-width: 100%;
+        border-radius: 3vh;
+        object-fit: cover;
+        transition: all .5s ease-in-out;
+    }
+
+    .groupImg img{
+        margin: 0 1vh;
+        margin-bottom: 4vh;
+        max-width: 4rem;
+        border-radius: 3vh;
+        cursor: pointer;
+        transition: all .5s ease-in-out;
+    }
+
+    .conteudo{
+        /* border: 1px solid red; */
+        max-width: 100%;
+    }
+
+    .price{
+        display: flex;
+        align-items: center;
+        gap: 22vh;
+    }
+
+    .inputs{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-group{
+        margin: 2vh 0;
+    }
+    
+    #addToCart{
+        width: 100%;
+    }
+}
+/* RESPONSIVIDADE */

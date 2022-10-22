@@ -1,6 +1,6 @@
 let countBtn = 0
 let countPrice = 125
-let total = 0
+let total = 1
 
 function incremento(){
     countPrice += 125
@@ -9,6 +9,11 @@ function incremento(){
 }
 
 function decremento(){
+    if(total <= 0 ){
+        alert('Operação inválida')
+        total ++
+        countPrice = 125
+    }
     countPrice -= 125
     document.getElementById('count-btn').innerHTML = total -=1
     document.getElementById('countPrice').innerHTML = '$' + countPrice.toFixed(2);

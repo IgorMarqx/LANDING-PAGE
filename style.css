@@ -20,7 +20,7 @@ h1,a{
 body{
     font-family: 'Kumbh Sans', sans-serif;  
     max-width: 100%;
-    max-height: auto;
+    height: 110vh;
 }
 
 .header header{

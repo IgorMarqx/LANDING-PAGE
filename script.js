@@ -25,7 +25,7 @@ function cart(){
     alert('Operação inválida no momento')
 }
 
-//Mudando imagens ao clicar
+//Mudando imagens ao clicar na imagem
 function img1(){
     document.getElementById('imgSneaker').src = './images/image-product-1.jpg'
 }
@@ -44,7 +44,7 @@ function img4(){
 //Mudando imagens ao clicar
 
 //Modal imagens
-const getElement = (...queries) => document.querySelector(...queries)
+const getElement = (...queries) => document.querySelector(...queries);
 
 const image = document.querySelector('.open-modal')
 const container = document.querySelector('.modal-container')
@@ -62,7 +62,7 @@ container.addEventListener ('click', (event) =>{
 })
 //Modal imagens
 
-//Mudando imagens no modal
+//Mudando imagens no modal ao clica na imagem
 function modalImg1(){
     document.getElementById('modalImgSneaker').src = './images/image-product-1.jpg'
 }
@@ -79,6 +79,12 @@ function modalImg4(){
     document.getElementById('modalImgSneaker').src = './images/image-product-4.jpg'
 }
 //Mudando imagens no modal
+
+//Mudando imagem ao clicar na setinha
+
+//Mudando imagem ao clicar na setinha
+
+
 
 
 

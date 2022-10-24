@@ -311,6 +311,34 @@ body{
     border: none;
 }
 
+.next{
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 55vh;
+    left: 61vh;
+    width: 38%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.next button{
+    background: #fff;
+    border:none;
+    color: #000;
+    padding: 15px;
+    border-radius: 3rem;
+    width: 50px;
+    font-size: .2rem;
+    transition: all .5s ease-in-out;
+}
+
+.next button:hover{
+    background: #e7e7e7;
+    transition: all .5s ease-in-out;
+}
+
+.next hutton 
+
 /* MODAL */
 
 /* Footer */

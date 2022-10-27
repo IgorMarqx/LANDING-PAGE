@@ -82,6 +82,19 @@ function modalImg4(){
 
 //Mudando imagem ao clicar na setinha
 
+// const slider = document.querySelector('.modalGroupImg .currentItem')
+// const btnPrev = document.getElementById('back')
+// const btnNext = document.getElementById('next')
+
+// let currentSlide = 0;
+
+// function nextSlider(){
+
+// }
+
+// btnNext.addEventListener('click', () => console.log('Clicado'))
+// btnPrev.addEventListener('click', () => console.log('Clicado'))
+
 //Mudando imagem ao clicar na setinha
 
 

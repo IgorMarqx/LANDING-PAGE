@@ -92,7 +92,7 @@ body{
 }
 
 .kart:hover{
-    transform: scale(1.15);
+    transform: scale(1.04);
     transition: all .5s ease-in-out;
     width: 1.8rem;
 }
@@ -113,10 +113,12 @@ body{
 
 .container{
     display: flex;
+    gap: 4rem;
+    /* border: 1px solid red; */
 }
 
 #imgSneaker{
-    max-width: 28rem;
+    max-width: 27rem;
     border-radius: 3vh;
     object-fit: cover;
     transition: all .5s ease-in-out;
@@ -131,8 +133,8 @@ body{
 
 
 .groupImg img{
-    margin: 0 1.5vh;
-    max-width: 5.5rem;
+    margin-left: 1.4rem;
+    max-width: 4.5rem;
     border-radius: 3vh;
     cursor: pointer;
     transition: all .5s ease-in-out;
@@ -145,20 +147,20 @@ body{
 }
 
 .textSneaker{
+    /* background-color: #222; */
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
 .conteudo{
     /* border: 1px solid red; */
-    max-width: 70%;
+    max-width: 75%;
+    margin-top: 4rem;
 }
 
 .conteudo h5{
     font-size: 0.8rem;
-    font-weight: bold;
+    font-weight: 700;
     color: #ff7b00b9;
 }
 
@@ -194,8 +196,8 @@ body{
 
 .price{
     display: flex;
-    align-items: center;
-    gap: 2vh;
+    flex-direction: column;
+    /* gap: 2vh; */
 }
 
 .cut{
@@ -394,6 +396,7 @@ body{
     .container{
         display: flex;
         flex-direction: column;
+        gap: 0;
     }
 
     #imgSneaker{
@@ -401,6 +404,7 @@ body{
         border-radius: 3vh;
         object-fit: cover;
         transition: all .5s ease-in-out;
+        margin-top: 0;
     }
 
     .groupImg img{
@@ -415,11 +419,13 @@ body{
     .conteudo{
         /* border: 1px solid red; */
         max-width: 100%;
+        margin-top: 0;
     }
 
     .price{
         display: flex;
         align-items: center;
+        flex-direction: row;
         gap: 22vh;
     }
 
